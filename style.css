@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: hsla(0, 5%, 11%, 0.068);
+}
+
+ul{
+    list-style-type: none;
+}
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    grid-gap: 1rem;
+    background-color: rgb(208, 208, 223);
+}
+.contact info, .skills, .language{
+    padding: 1rem;
+    line-height: 1;
+    background-color: rgb(161, 170, 179);
+    
+    }
+    .headline{
+        font-size: large;
+.left{
+    background-color: rgba(215, 203, 203, 0.651)};
+}
+.left-image{
+    position: relative;
+}
+.left-image img{
+    width: 100%;
+}
+.left-image h2{
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+}
+.right{
+    background-color: rgb(228, 214, 214);
+    padding: 5rem;
+}
+.experience{
+    line-height:2 ;
+}
+.date{
+    color: rgb(17, 19, 19);
+}
+.current{
+    background-color: rgb(187, 154, 154);
+    color: rgb(40, 38, 42);
+    padding: 0.4rem;
+    border-radius: 3px;
+}
+.experience, .Education ul{
+    margin: 0 ;
+    line-height: 2;
+}
